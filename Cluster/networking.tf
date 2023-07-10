@@ -20,7 +20,7 @@
    name                         = "Public_IP-${count.index}"
    location                     = azurerm_resource_group.Kubernetes.location
    resource_group_name          = azurerm_resource_group.Kubernetes.name
-   allocation_method            = "Static"
+   allocation_method            = "Dynamic"
 
    depends_on = [azurerm_resource_group.Kubernetes]
  }
@@ -34,7 +34,7 @@
    ip_configuration {
      name                          = "testConfiguration"
      subnet_id                     = azurerm_subnet.test.id
-     private_ip_address_allocation = "Static"
+     private_ip_address_allocation = "Dynamic"
      public_ip_address_id          = azurerm_public_ip.test["${count.index}"].id
    }
    depends_on = [azurerm_resource_group.Kubernetes]
