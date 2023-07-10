@@ -1,9 +1,9 @@
 [masters]
- master ansible_host=108.143.162.0 ansible_user=group4
+ master ansible_host=40.91.253.242 ansible_user=group4
  
 [workers]
- worker0 ansible_host=108.143.161.70 ansible_user=group4
- worker1 ansible_host=108.143.161.54 ansible_user=group4
+ worker0 ansible_host=40.91.253.239 ansible_user=group4
+ worker1 ansible_host=20.61.84.214 ansible_user=group4
  
 #[all:vars]
 # Upadte this to match with your system
