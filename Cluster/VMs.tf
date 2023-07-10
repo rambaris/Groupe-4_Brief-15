@@ -19,7 +19,7 @@ resource "tls_private_key" "SSH" {
      azurerm_network_interface.test["${count.index}"].id
     ]
 
-    storage_image_reference {
+    source_image_reference {
     publisher = "OpenLogic"
     offer     = "CentOS"
     sku       = "8_5-gen2"
@@ -51,7 +51,7 @@ resource "tls_private_key" "SSH" {
      azurerm_network_interface.test["${2}"].id
      ]
 
-    storage_image_reference {
+    source_image_reference {
     publisher = "OpenLogic"
     offer     = "CentOS"
     sku       = "8_5-gen2"
