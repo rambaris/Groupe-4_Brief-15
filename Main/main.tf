@@ -1,0 +1,3 @@
+module "ModuleEnfant" {
+  source = "../Cluster"
+}
