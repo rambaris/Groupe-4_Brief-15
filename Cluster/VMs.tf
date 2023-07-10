@@ -22,7 +22,7 @@ resource "tls_private_key" "SSH" {
     storage_image_reference {
     publisher = "OpenLogic"
     offer     = "CentOS"
-    sku       = "8.0"
+    sku       = "8_5-gen2"
     version   = "latest"
   }
 
@@ -54,7 +54,7 @@ resource "tls_private_key" "SSH" {
     storage_image_reference {
     publisher = "OpenLogic"
     offer     = "CentOS"
-    sku       = "8.0"
+    sku       = "8_5-gen2"
     version   = "latest"
   }
 
