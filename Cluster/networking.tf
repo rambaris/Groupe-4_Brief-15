@@ -20,7 +20,7 @@
    name                         = "Public_IP-${count.index}"
    location                     = azurerm_resource_group.Kubernetes.location
    resource_group_name          = azurerm_resource_group.Kubernetes.name
-   allocation_method            = "Dynamic"
+   allocation_method            = "Static"
 
    depends_on = [azurerm_resource_group.Kubernetes]
  }
