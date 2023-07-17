@@ -9,13 +9,13 @@ output "Cle_privee" {
 }
 
 output "IP_worker_0" {
-  value = module.ChildResources.IP_pub_worker_0
+  value = module.ModuleEnfant.IP_pub_worker_0
 }
 
 output "IP_worker_1" {
-  value = module.ChildResources.IP_pub_worker_1
+  value = module.ModuleEnfant.IP_pub_worker_1
 }
 
 output "IP_manager" {
-  value = module.ChildResources.IP_pub_manager
+  value = module.ModuleEnfant.IP_pub_manager
 }
