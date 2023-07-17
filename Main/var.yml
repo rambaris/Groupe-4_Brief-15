@@ -1,0 +1,4 @@
+---
+- import_playbook: ../playbooks/manageretworker.yml
+- import_playbook: ../playbooks/init.yml
+- import_playbook: ../playbooks/joindre.yml
