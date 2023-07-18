@@ -2,4 +2,4 @@
 - import_playbook: ../playbooks/manageretworker.yml
 - import_playbook: ../playbooks/init.yml
 - import_playbook: ../playbooks/joindre.yml
-- import_playbook: ../playbooks/playbookdeploiement.yml
+- import_playbook: ../playbooks/deploiement_2048.yml
